@@ -1,0 +1,590 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: rgba(216,229,241,255);
+	height: 100%;
+}
+
+
+.header{
+	display: flex;
+	width: 100%;
+	height: 60px;
+	justify-content: space-between;
+	background-color: rgba(51,122,183,255);
+    box-shadow: 0px 2px 12px 0px rgba(102, 102, 102, 0.2);
+}
+
+.header_left{
+	display: flex;
+	align-content: center;
+	padding-left: 50px;
+}
+
+.header_left img{
+	object-fit: contain;
+	height: 40px;
+	margin-left: 20px;
+	margin-top: 10px;
+    margin-right: 50px;
+}
+
+.header_left h3{
+    color: white;
+	margin-left: 20px;
+	margin-top: 20px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.header_right{
+	display: flex;
+	margin-top: 10px;
+    margin-right: 50px;
+}
+
+.header_right h4{
+    color: white;
+	margin-left: 5px;
+	margin-right: 25px;
+	margin-top: 10px;
+    font-size: 14px;
+}
+
+.header_right img {
+    height: 30px;
+}
+
+.Main-Sect{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.functions {
+    background-color: white;
+    margin-top: 50px;
+}
+
+.functions-right {
+    margin-left: 880px;
+    display: flex;
+}
+
+.functions-right img {
+    height: 35px;
+	padding: 12px;
+    cursor: pointer;
+}
+
+.details{
+    display: flex;
+}
+
+.userBox{
+    background-color: white;
+    padding: 30px;
+    margin-top: 25px;
+    height: fit-content;
+}
+
+.userBox button{
+	justify-content: center;
+    background-color: rgba(51,122,183,255);
+    color: white;
+    padding: 6px;  
+    font-size: 13px;
+	font-weight: bolder;
+	letter-spacing: 00.05em;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.userBox h3 {
+    font-weight: bold;
+    color: rgba(51,122,183,255);
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    align-content: center;
+}
+
+.userBox img {
+    width: 75px;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.contactList{
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactList table {
+    width: 1170px;
+}
+
+.contactList img {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.contactList button{
+	justify-content: center;
+	color: rgba(51,122,183,255);
+	font-size: 13px;
+	font-weight: bolder;
+	letter-spacing: 00.05em;
+	background-color: white;
+	border: 2px solid rgba(51,122,183,255);
+	padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+	outline: none;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.contactList button:focus {
+    color: white;
+    background-color: #008ae6;
+    border-radius: 5px;
+}
+
+.contactList table th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e2e2;
+    align-items: center;
+    color: rgba(51,122,183,255);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.contactList table td {
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px solid #e2e2e2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.bg-modal {
+	margin-top: 70px;
+	margin-left: 350px;
+	width: fit-content;
+	height: fit-content;
+	background-color: transparent;
+	opacity: 1;
+	top: 0;
+	position: absolute;
+	display: flex;
+	display: none;
+}
+
+.modal-content {
+	width: 800px;
+	background-color: white;
+	opacity: 1;
+	position: relative;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.formBody{
+    margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.close {
+	position: absolute;
+	margin-left: 770px; 
+	font-size: 35px;
+	opacity: 0.6;
+	transform: rotate(45deg);
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.boxCreate{
+    background-color: #d3eefa;
+    margin-left: auto;
+    margin-right: auto;
+	display: flex;
+}
+
+.formRight{
+	width: 70%;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.formHeader{
+    margin: 50px; 
+	text-align: center;
+    background-color: #d3eefa;
+}
+.formBody1{
+    margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+h3{
+    color: #337ab7;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h4{
+    font-size: 19px;
+    padding-bottom: 5px;
+    color: #337ab7;
+    border-bottom: 3px solid #337ab7;
+    width: 95%;
+}
+.personalContact{
+    justify-content: space-between;
+    width: 95%;
+}
+h5{
+    color: #337ab7;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+select{
+    border: none;
+    border-top: 1px solid rgb(221, 215, 215);
+    border-bottom: 1px solid rgb(158, 156, 156);
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    outline: none;
+    color: gray;
+}
+input{
+    padding-top: 5px;
+    padding-bottom:7px;
+    border: none;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-top: 1px solid rgb(219, 214, 214);
+    border-bottom: 1px solid rgb(158, 156, 156);
+}
+#gender{
+    padding-right: 95px;
+        
+}
+#date{
+    padding-right: 80px;
+}
+#photo{
+    width: 75%;
+}
+.address{
+    padding-right: 35px;
+}
+.createButton{
+    border-color: r#337ab7;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #337ab7;
+    color: white;
+    padding: 5px 5px 5px 5px;    
+    border: none;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.bg-modal img{
+    height: 115px;
+    background-color: gray;
+    border-radius: 60px 60px 60px 60px;
+    margin: 100px auto  0px auto;
+}
+.errorMessage{
+    font-size: 13px;
+}
+
+
+
+.bg-modal2 {
+	margin-top: 70px;
+	margin-left: 500px;
+	width: fit-content;
+	height: fit-content;
+	background-color: transparent;
+	opacity: 1;
+	top: 0;
+	position: absolute;
+	display: flex;
+	display: none;
+}
+.modal-content2 {
+	width: 800px;
+	background-color: white;
+	opacity: 1;
+	position: relative;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.personalContact{
+    justify-content: space-between;
+    width: 95%;
+}
+
+.boxEdit{
+    background-color: #d3eefa;
+    margin-left: auto;
+    margin-right: auto;
+	display: flex;
+}
+
+.formRight{
+	width: 70%;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.formHeader{
+    margin: 50px; 
+	text-align: center;
+    background-color: #d3eefa;
+}
+.formBody1{
+    margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+h3{
+    color: #337ab7;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h4{
+    font-size: 19px;
+    padding-bottom: 5px;
+    color: #337ab7;
+    border-bottom: 2px solid #337ab7;
+    width: 95%;
+}
+h5{
+    color: #337ab7;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+select{
+    border: none;
+    border-top: 1px solid rgb(221, 215, 215);
+    border-bottom: 1px solid rgb(158, 156, 156);
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    outline: none;
+    color: gray;
+}
+input{
+    padding-top: 5px;
+    padding-bottom:7px;
+    border: none;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-top: 1px solid rgb(219, 214, 214);
+    border-bottom: 1px solid rgb(158, 156, 156);
+}
+#gender{
+    padding-right: 95px;
+        
+}
+#date{
+    padding-right: 80px;
+}
+#photo{
+    width: 75%;
+}
+.address{
+    padding-right: 35px;
+}
+.editButton{
+    border-color: r#337ab7;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #337ab7;
+    color: white;
+    padding: 5px 5px 5px 5px;    
+    border: none;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.bg-modal2 img{
+    height: 115px;
+    background-color: gray;
+    margin: 100px auto  0px auto;
+}
+
+.delete-contact {
+	margin-top: 200px;
+	margin-left: 700px;
+	width: fit-content;
+	height: fit-content;
+	background-color: transparent;
+	opacity: 1;
+	top: 0;
+	position: absolute;
+	display: flex;
+	display: none;
+}
+
+.delete-content {
+	width: fit-content;
+	background-color: #d3eefa;
+    border: 2px solid #337ab7;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+	opacity: 1;
+	position: relative;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-size: 25px;
+}
+
+.deleteButton{
+    border-color: #337ab7;
+    border-radius: 20px;
+    background-color: #337ab7;
+    color: white;
+    width: 50px;
+    padding: 6px;    
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.bg-modal3 {
+	margin-top: 70px;
+	margin-left: 500px;
+	width: fit-content;
+	height: fit-content;
+	background-color: transparent;
+	opacity: 1;
+	top: 0;
+	position: absolute;
+	display: flex;
+	display: none;
+}
+.modal-content3 {
+	width: 800px;
+	background-color: white;
+	opacity: 1;
+	position: relative;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.boxView{
+    background-color: #d3eefa;
+    margin-left: auto;
+    margin-right: auto;
+	display: flex;
+}
+
+.closeButton{
+    border-color: r#337ab7;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #337ab7;
+    color: white;
+    padding: 5px 5px 5px 5px;    
+    border: none;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.bg-modal3 img{
+    height: 115px;
+    background-color: gray;
+    margin: 100px auto  0px auto;
+}
+
+.viewName, .viewGender, .viewDob, .viewAddress, .viewPincode, .viewEmail, .viewPhone {
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+.viewData h5 {
+    font-size: 16px;
+    color: #0059b3;
+    opacity: 0.8;
+    font-weight: bold;
+    margin-top: 0;
+}
+.viewData h6 {
+    font-size: 16px;
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+    padding-left: 6px;
+}
+.viewName p {
+    padding-left: 80px;
+}
+.viewGender p {
+    padding-left: 70px;
+}
+.viewDob p {
+    padding-left: 30px;
+}
+.viewAddress p {
+    padding-left: 60px;
+}
+.viewPincode p {
+    padding-left: 61px;
+}
+.viewEmail p {
+    padding-left: 60px;
+}
+.viewPhone p {
+    padding-left: 71px;
+}
