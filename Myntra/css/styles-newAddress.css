@@ -1,0 +1,313 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+	display: flex;
+	width: auto;
+	height: 80px;
+	justify-content: space-between;
+	background-color: white;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.header_left{
+	display: flex;
+	align-content: center;
+	padding-left: 50px;
+}
+
+.header_left img{
+	object-fit: contain;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 20px;
+    margin-right: 50px;
+}
+
+.header_middle .Path{
+    display: flex;
+	margin-top: 25px;
+    letter-spacing: 2px;
+}
+
+.header_middle h3{
+    color: #20BD99;
+    border-bottom: 2px solid #20BD99;
+    font-size: 13px;
+}
+
+.header_middle h4{
+    font-size: 14px;
+    color: #696B79;
+}
+
+.header_right{
+    display: flex;
+    margin-right: 50px;
+    letter-spacing: 3px;
+}
+
+.header_right img{
+    height: 25px;
+	margin-top: 20px;
+    padding-right: 5px;
+}
+
+.header_right h4{
+    font-size: 14px;
+	margin-top: 25px;
+}
+
+.Main{
+    display: flex;
+}
+
+.Sect1{
+    border: 1px solid whitesmoke;
+    margin-left: 545px;
+    margin-top: 20px;
+}
+
+.Sect1 h3{
+	font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Sect1 .Sect_input{
+    position: relative;
+	display: flex;
+	margin-left: 20px;
+    width: 415px;
+	padding: 10px;
+	font-size: 14px;
+	background-color: white;
+}  
+
+
+.Sect1 .Sect_input input{
+    position:relative;
+	font-size: 14px;
+    color: rgb(79, 79, 79);
+	border: 1px solid rgb(160, 159, 159,.7);
+    border-radius: 3px;
+    box-sizing: border-box;
+    outline: none;
+	font-family: inherit;
+	padding-top: 10px;
+    padding-left: 10px;
+	cursor: text;
+    width: 415px;
+    height: 30px;
+    background: transparent;
+    font-weight: 300;
+}
+
+.Sect1 .Sect_input span{
+    position:absolute;
+    top: 5px;
+    left: 10px;
+	padding: 10px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(79, 79, 79);
+    transition: 0.5s;
+    pointer-events: none;
+}
+  
+.Sect1 .Sect_input input:focus ~ span,
+.Sect1 .Sect_input input:valid ~ span{
+	transform: translateX(10px) translateY(-6px);
+    font-size: 14px;
+	letter-spacing: 0.05em;
+    padding: 0;
+    background-color: white;
+}
+
+.Add_Place{
+    display: flex;
+    margin-left: 20px;
+}
+
+.AP{
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: 15px;
+    font-size: 13px;
+    color: grey;
+    font-weight: 100;
+    width: 180px;
+}
+
+.Add_Place:hover{
+    cursor: pointer;
+}
+
+.Save{
+    display: flex;
+}
+
+.Save:hover{
+    cursor: pointer;
+}
+
+.saveHome{
+    background-color: white;
+    color: #ff3f6c;
+    border: 1px solid #ff3f6c;
+    border-radius: 20px;
+    height: 25px;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.saveWork{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 25px;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.Button{
+    margin-top: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.Sect1 .Sect_input input[type="submit"]{
+    background-color: #ff3f6c;
+    border: #ff3f6c;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    width: 415px;
+}
+
+.Price{
+    padding-top: 15px;
+    margin-left: 140px;
+}
+
+.Price h3{
+    font-size: 14px;
+}
+
+.P1{
+    display: flex;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.P1 h4{
+    font-size: 13px;
+}
+
+.P1_P{
+    display: flex;
+    margin-left: 215px;
+}
+
+.P1 p{
+    font-size: 13px;
+}
+
+.P2{
+    display: flex;
+    padding-bottom: 6px;
+}
+
+.P2 h3{
+    font-size: 13px;
+}
+
+.P2_P{
+    display: flex;
+    color: #03a685;
+    margin-left: 165px;
+}
+
+.P2_P img{
+    height: 15px;
+}
+
+.P2 p{
+    font-size: 13px;
+}
+
+.P3{
+    display: flex;
+    padding-bottom: 6px;
+}
+
+.P3 h4{
+    font-size: 13px;
+}
+
+.P3 h5{
+    font-size: 13px;
+    color: #ff3f6c;
+    padding-left: 10px;
+}
+
+.P3_P{
+    display: flex;
+    margin-left: 105px;
+}
+
+.P3 p{
+    font-size: 13px;
+}
+
+.Total-P{
+    display: flex;
+    padding-top: 8px;
+    margin-bottom: 8px;
+    border-top: 1px solid rgb(228, 226, 226);
+    margin-left: 140px;
+}
+
+.Total-P h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.TP_P{
+    display: flex;
+    margin-left: 170px;
+}
+
+.Footer{
+    border-top: 1px solid whitesmoke;
+    display: flex;
+    margin-top: 50px;
+}
+
+.banks{
+    margin-left: 475px;
+}
+
+.banks img{
+    height: 35px;
+    padding-right: 2px;
+    padding-top: 10px;
+}
+
+.Footer h5{
+    padding-top: 20px;
+    padding-left: 150px;
+    font-size: 14px;
+}

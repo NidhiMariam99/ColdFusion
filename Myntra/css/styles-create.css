@@ -1,0 +1,255 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.material-icons{
+	color: grey;
+}
+
+.header{
+	display: flex;
+	width: auto;
+	height: 80px;
+	justify-content: space-between;
+	background-color: white;
+    box-shadow: 0px 2px 12px 0px rgba(102, 102, 102, 0.2);
+}
+
+.header_left{
+	display: flex;
+	align-content: center;
+	padding-left: 50px;
+}
+
+.header_left img{
+	object-fit: contain;
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 25px;
+    margin-right: 50px;
+}
+
+.header_left h3{
+	margin-left: 20px;
+	margin-top: 30px;
+    font-size: 14px;
+}
+
+.header_middle{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 450px;
+	border: none;
+	border-radius: 3px;
+	flex: 0.7;
+	align-items: center;
+	background-color: whitesmoke;
+}
+
+.header_middle input{
+	border: none;
+    outline: none;
+	width: 100%;
+	padding: 10px;
+	font-size: 12px;
+    color: grey;
+	background-color: whitesmoke;
+}
+
+.header_right{
+	display: flex;
+	margin-top: 20px;
+    margin-right: 50px;
+}
+
+.header_right h3{
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+.header_right:hover{
+	cursor: pointer;
+}
+
+.Main-Sect{
+	height: 800px;
+	width: 100%;
+    background:linear-gradient(to bottom right,#feedf6,#fcf0e2);
+	padding-top: 20px
+}
+
+.Login{
+	height: 625px;
+	width: 420px;
+	background-color: white;
+	margin-left: 720px;
+	margin-right: 720px;
+	padding-top: 50px;
+}
+
+.Login h3{
+	margin-left: 40px;
+}
+
+.Mobile h4{
+	font-size: 14px;
+	font-weight: 100;
+	margin-left: 40px;
+	color: grey;
+}
+
+.mob-head{
+	display: flex;
+	height: 25px;
+	margin-top: 30px;
+}
+
+.mob-head .material-icons{
+	color:#0db7af;
+	margin-left: 210px;
+}
+
+.Mobile h6{
+	font-size: 14px;
+	font-weight: 100;
+	margin-left: 40px;
+	letter-spacing: 0.5px;
+}
+
+.Main-Sect h5{
+	font-size: 12px;
+	color: grey;
+	margin-right: 10px;
+	padding-top: 10px;
+}
+
+.Sect_input{
+	display: flex;
+	padding: 10px;
+	font-size: 12px;
+	color: grey;
+	background-color: white;
+	border: 1px solid grey;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 15px;
+	border-radius: 3px;
+}
+
+.Sect_input input{
+	border: none;
+	outline: none;
+	padding-left: 10px;
+	width: 100%;
+}
+
+.Sect_input .material-icons{
+	margin-left: 120px;
+	height: 10px;
+	margin-bottom: 10px;
+}
+
+.P-Button{
+	display: flex;
+	margin-left: 35px;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.pass{
+	font-size: 13px;
+	background-color: whitesmoke;
+	border: 1px solid whitesmoke;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+.Gender{
+	display: flex;
+}
+
+.Gender h3{
+	font-size: 14px;
+	color: grey;
+}
+
+.Gender p{
+	font-size: 13px;
+	color: grey;
+	margin-left: 50px;
+}
+
+.Sect_inNumber{
+	display: flex;
+	font-size: 12px;
+	color: grey;
+	background-color: white;
+	border: 1px solid grey;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 15px;
+}
+
+.Sect_inNumber h5{
+	font-size: 12px;
+	color: grey;
+	padding: 10px;
+}	
+
+.Sect_inNumber input{
+	border: none;
+	outline: none;
+	padding-left: 10px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-left: 1px solid black;
+}
+
+.Login .Button input[type="submit"]{
+	display: flex;
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 340px;
+	justify-content: center;
+	color: white;
+	font-weight: 200;
+	padding: 10px;
+	background-color: rgb(238, 26, 107);
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+.Login .Button input[type="submit"]:hover{
+	cursor: pointer;
+}
+
+.Sect_trouble{
+	display: flex;
+	margin-top: 20px;
+	margin-left: 30px;
+	padding-bottom: 20px;
+}
+
+.Sect_trouble h6{
+	font-size: 13px;
+	padding-right: 5px;
+	color: grey;
+	font-weight: 100;
+}
+
+.Sect_trouble h5{
+	font-size: 13px;
+	color: rgb(238, 26, 107);
+	padding-right: 5px;
+}
+
+.Sect_trouble h5:hover{
+	cursor: pointer;
+}

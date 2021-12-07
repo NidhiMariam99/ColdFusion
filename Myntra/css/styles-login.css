@@ -1,0 +1,222 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.material-icons{
+	color: grey;
+}
+
+.header{
+	display: flex;
+	width: auto;
+	height: 80px;
+	justify-content: space-between;
+	background-color: white;
+    box-shadow: 0px 2px 12px 0px rgba(102, 102, 102, 0.2);
+}
+
+.header_left{
+	display: flex;
+	align-content: center;
+	padding-left: 50px;
+}
+
+.header_left img{
+	object-fit: contain;
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 25px;
+    margin-right: 50px;
+}
+
+.header_left h3{
+	margin-left: 20px;
+	margin-top: 30px;
+    font-size: 14px;
+}
+
+.header_middle{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 450px;
+	border: none;
+	border-radius: 3px;
+	flex: 0.7;
+	align-items: center;
+	background-color: whitesmoke;
+}
+
+.header_middle input{
+	border: none;
+    outline: none;
+	width: 100%;
+	padding: 10px;
+	font-size: 12px;
+    color: grey;
+	background-color: whitesmoke;
+}
+
+.header_right{
+	display: flex;
+	margin-top: 20px;
+    margin-right: 50px;
+}
+
+.header_right h3{
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+/* main body */
+body{
+	background:linear-gradient(to bottom right,#feedf6,#fcf0e2);
+}
+
+.loginbox
+{
+	margin: auto;
+	width: 370px;
+	background-color: white;
+	padding: 15px;                                        
+	margin-top: 30px;
+	position: relative;
+	height: 83vh;
+}
+
+.loginbox h4{
+	margin: 5px;
+	font-size: 21px;
+	font-weight: 600;
+	color: rgb(75, 74, 74);
+	margin-top: 40px;
+	margin-left: 25px;
+}
+
+.loginbox  label{
+	margin: 5px;
+}
+
+.form{
+	position: relative;
+}
+
+.form input{
+	border: 1px solid rgb(145, 145, 145);
+}
+
+.form .placeholder{
+	font-size: 12px;
+	color: grey;
+	position: absolute;
+}
+
+.field{
+	display: flex;
+	flex-flow: column-reverse;
+	margin-left: 25px;
+}
+
+label, input {
+	transition: all 0.2s;
+}
+  
+input{
+	font-size: 14px;
+	border: 1px solid rgb(160, 159, 159,.7);
+	font-family: inherit;
+	padding: 5px;
+	cursor: text;
+	padding-left: 8px;
+	width: 300px;
+	height: 30px;
+}
+  
+input:focus{
+	border: 1px solid black;
+	outline: none;
+}
+  
+label{
+	font-size: 13px;
+	color: grey;
+	letter-spacing: 0.05em;
+	padding-bottom: 3px;
+	padding-left: 8px;
+	background-color: white;
+	width: fit-content;
+}
+
+input:placeholder-shown + label{
+	cursor: text;
+	max-width: 66.66%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	transform-origin: left bottom;
+	transform: translate(0, 35px) scale(1);
+}
+
+::-webkit-input-placeholder{
+	opacity: 0;
+	transition: inherit;
+}
+  
+label,
+input:focus + label{
+	transform: translate(0,13px) scale(1);
+	cursor: pointer;
+}
+
+#field2{
+	position: absolute;
+	top: 150px;
+}
+  
+#continue{
+	display: flex;
+	margin-top: 80px;
+	margin-left: 25px;
+	width: 315px;
+	justify-content: center;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 00.05em;
+	padding: 10px;
+	background-color: #ff3e6c;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+#continue:hover{
+	cursor: pointer;
+}
+
+.Sect_trouble{
+	display: flex;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+
+.Sect_trouble h6{
+	font-size: 13px;
+	padding-right: 5px;
+	color: grey;
+	font-weight: 100;
+}
+
+.Sect_trouble h5{
+	font-size: 13px;
+	color: #ff3e6c;
+	padding-right: 5px;
+}
+
+.Sect_trouble h5:hover{
+	cursor: pointer;
+}
+
+/* main body ends */
